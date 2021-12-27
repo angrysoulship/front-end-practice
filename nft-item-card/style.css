@@ -19,10 +19,10 @@
 }
 
 .title {
-  color: hsl(215, 51%, 70%);
+  color: hsl(178, 100%, 50%);
   padding: 15px 0;
   font-size: 22px;
-  font-family:'Outfit', sans-serif;;
+  font-family:'Outfit', sans-serif;
   font-weight: 600;
   cursor: pointer;
 
