@@ -1,0 +1,116 @@
+.card {
+  /* background-color: pink; */
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px grey;
+  margin: 50px auto;
+  
+}
+
+.image{
+  position: relative;
+}
+
+
+.main-pic {
+  width: 100%;
+  height:auto;
+  border-radius: 20px 20px 0 0; 
+}
+
+.title {
+  /* background-color:grey; */
+  text-align:center;
+  padding: 10px;
+  margin: 20px 10px 5px 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: hsl(223, 47%, 23%);
+}
+
+.description {
+  /* background-color: grey; */
+  text-align:center;
+  padding: 10px 8px;
+  margin: 5px 10px;
+  font-size: 13px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(224, 23%, 55%)
+  
+}
+
+.plan-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  border: 0;
+  margin: 10px;
+  padding: 10px 15px;
+
+  align-items: center;
+}
+
+.plan-price {
+  display: flex;
+  flex-direction: column;
+  margin-left: -50px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 13px;
+  margin-top: -5px;
+}
+
+.bold {
+  margin-bottom: -10px;
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.btn-change {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  text-decoration: underline;
+  color: hsl(223, 47%, 23%);
+}
+
+.btn-payment{
+  background-color: hsl(245, 75%, 52%);
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 11px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 80%;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0px 10px 10px rgba(56,42,225,0.2);
+
+}
+
+.btn-cancel {
+  background-color: white;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  font-size: 11px;
+  box-shadow: none;
+  border: none;
+  border-radius: 8px;
+  color: hsl(224, 23%, 55%);
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+}
